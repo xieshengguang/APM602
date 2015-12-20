@@ -77,7 +77,7 @@ static void read_battery(void)
 
 // read the receiver RSSI as an 8 bit number for MAVLink
 // RC_CHANNELS_SCALED message
-void read_receiver_rssi(void)
+void read_receiver_rssi(void)//Received Signal Strength Indication
 {
     // avoid divide by zero
     if (g.rssi_range <= 0) {
